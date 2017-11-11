@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Friend Finder</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
+
+  <!-- Plugin CSS -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/creative.css" rel="stylesheet">
+</head>
+
+<body id="page-top">
+  <!-- No navigation, so this section acts as a landing page -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="img/friendfinder-fake-logo-01.png" alt="Friend Finder"></a>
+    </div>
+  </nav>
+
+  <header class="masthead text-center text-white d-flex">
+    <div class="container my-auto">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h1 class="text-uppercase">
+              <strong>Meet great people.<br>Make connections.</strong>
+            </h1>
+          <hr>
+        </div>
+        <div class="col-lg-8 mx-auto">
+          <p class="text-faded mb-5">Finding new friends can be hard. We make it easy.</p>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Friends Now!</a>
+        </div>
+      </div>
+    </div>
+  </header>
+<!-- suedo-about section starts here -->
+  <section class="bg-primary" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto text-center">
+          <h2 class="section-heading text-white">FriendFinder is an online friendship connection network enabling its incredible members to meet like-minded people in a fun, low-key enviornment.</h2>
+
+          <div class="container">
+            <div class="row">
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-user-plus text-primary mb-3 sr-icons"></i>
+              <h3 class="text-faded mb-4">Find Matches</h3>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-id-card text-primary mb-3 sr-icons"></i>
+              <h3 class="text-faded mb-4">Get Info</h3>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-comments text-primary mb-3 sr-icons"></i>
+              <h3 class="text-faded mb-4">Start Talking</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+          <hr class="light my-4">
+          <p class="text-faded mb-4">To get started, answer a few simple questions about yourself and<br>we'll do the rest to connect you to people that match you the best.</p>
+          <a class="btn btn-light btn-xl js-scroll-trigger" href="#beginForm">Let's go!</a>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- form starts here -->
+  <section id="beginForm">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <form method="post">
+
+            <div class="form-group"> <!-- name input -->
+              <label class="control-label requiredField" for="name">
+                 <h5>Your Full Name<span class="asteriskField"> *</span></h5>
+              </label>
+              <input class="form-control" id="name" name="name" type="text" />
+            </div>
+
+            <div class="form-group"> <!-- image inputs -->
+              <label class="control-label requiredField" for="email">
+                <h5>Link to Photo Image<span class="asteriskField"> *</span></h5>
+              </label>
+              <input class="form-control" id="email" name="email" type="text" />
+            </div>
+
+            <div class="form-group">
+              <h3>&nbsp;</h3>
+              <h3><strong>Answer these questions truthfully...</strong></h3>
+              <h5>&nbsp;</h5>
+
+          <!-- 10 questions here -->
+              <p>Your mind is always buzzing with unexplored ideas and plans.&nbsp;
+              <select data-placeholder="" class="chosen-select" id="q1">
+                  <option value=""></option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+              </select></p>
+              <p>You find it easy to stay relaxed and focused even when there is some pressure.&nbsp;
+              <select data-placeholder="" class="chosen-select" id="q2">
+                  <option value=""></option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+              </select></p>
+              <p>Generally speaking, you rely more on your experience than your imagination.&nbsp;
+              <select data-placeholder="" class="chosen-select" id="q3">
+                  <option value=""></option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+              </select></p>
+              <p>You rarely do something just out of sheer curiosity.&nbsp;
+              <select data-placeholder="" class="chosen-select" id="q4">
+                  <option value=""></option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+              </select></p>
+              <p>People can rarely upset you.&nbsp;
+              <select data-placeholder="" class="chosen-select" id="q5">
+                  <option value=""></option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+              </select></p>
+              <p>It is often difficult for you to relate to other people’s feelings.&nbsp;
+              <select data-placeholder="" class="chosen-select" id="q6">
+                  <option value=""></option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+              </select></p>
+              <p>In a discussion, truth should be more important than people’s sensitivities.&nbsp;
+              <select data-placeholder="" class="chosen-select" id="q7">
+                  <option value=""></option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+              </select></p>
+              <p>You rarely get carried away by fantasies and ideas.&nbsp;
+              <select data-placeholder="" class="chosen-select" id="q8">
+                  <option value=""></option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+              </select></p>
+              <p>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.&nbsp;
+              <select data-placeholder="" class="chosen-select" id="q9">
+                  <option value=""></option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+              </select></p>
+              <p>You feel more energetic after spending time with a group of people.&nbsp;
+              <select data-placeholder="" class="chosen-select" id="q10">
+                  <option value=""></option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+              </select></p>
+
+              <div class="form-group"> <!-- submit button -->
+                <div>
+                  <button class="btn btn-primary " name="submit" type="submit">Submit</button>
+                </div>
+              </div>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="/js/creative.min.js"></script>
+
+</body>
+
+</html>
