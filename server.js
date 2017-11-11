@@ -1,5 +1,6 @@
 // npm package dependencies
 var express = require("express");
+var app = express();
 var bodyParser = require("body-parser");
 var path = require("path");
 
@@ -7,9 +8,8 @@ var path = require("path");
 var app = express(); // alert node that an express server is being created
 var PORT = process.env.PORT || 3308; //sets a port or allows it to pick an available one
 
-var jsonParser = bodyParser.json();
-
-var urlencodedParser = bodyParser.urlencoded({ extended: false });
+// var jsonParser = bodyParser.json();
+// var urlencodedParser = bodyParser.urlencoded({ extended: false });
 
 // BodyParser gives the app the ability to handle data parsing
 app.use(bodyParser.json());
